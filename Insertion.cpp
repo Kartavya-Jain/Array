@@ -20,7 +20,8 @@ int main()
     delete[] num;
     num=insnum;
     cout<<endl;
-    /*for(int i=0;i<6;i++)
+    /*
+    for(int i=0;i<6;i++)
     {
         cout<<" "<<num[i];
     }
@@ -28,8 +29,10 @@ int main()
     */
     cout<<"Select position at which you want to insert a new number[1/2/3/4/5]:";
     cin>>p;
-    //cout<<"p="<<p;
-    //cout<<endl;
+    /*
+    cout<<"p="<<p;
+    cout<<endl;
+    */
     for(int i=5;i>=p-1;i--)
     {
         insnum[i]=insnum[i-1];
@@ -50,14 +53,16 @@ int main()
     {
         cout<<" "<<num[i];
     }
-    //for(int i=5;i<=p-1;i--)
-    //{
-    //   insnum[i]=insnum[i-1];
-    //}
-    //cout<<endl;
-    //for(int i=5;i<=p-1;i--)
-    //{
-    //    cout<<" "<<insnum[i];
-    //}
+    /*
+    for(int i=5;i<=p-1;i--)
+    {
+       insnum[i]=insnum[i-1];
+    }
+    cout<<endl;
+    for(int i=5;i<=p-1;i--)
+    {
+        cout<<" "<<insnum[i];
+    }
+    */
     return 0;
 }

@@ -20,7 +20,6 @@ int main()
     delete[] num;
     num=insnum;
     cout<<endl;
-
     /*for(int i=0;i<6;i++)
     {
         cout<<" "<<num[i];

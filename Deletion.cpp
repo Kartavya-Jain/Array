@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int p,newnum;
+    int p;
     int* num=new int[5];
     //Entering numbers in the array
     cout<<"Enter numbers of array:";

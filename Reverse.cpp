@@ -11,8 +11,7 @@ int main()
         cin>>num[i];
     }
     cout<<"Before reversing the values:";
-    cout<<num[0];
-    for(int i=1;i<5;i++)
+    for(int i=0;i<5;i++)
     {
         cout<<" "<<num[i];
     }

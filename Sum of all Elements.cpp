@@ -23,6 +23,6 @@ int main()
     cout<<endl;
     cout<<sum;
    delete[] array;
-   array=nullptr;
+   array=NULL;
    return 0;
 }

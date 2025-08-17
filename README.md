@@ -33,3 +33,18 @@ Enter numbers of array:27
 15
 Before reversing the values: 27 91 56 48 15
 After reversing the values: 15 48 56 91 27 
+
+Sum of all ELements.cpp
+This is a program for adding all elements of an array. The array can be of any size entered by user and the values are taken from the user.
+The program will run as follows:
+Enter the size of the array:8
+Enter the elements of the array:42
+63
+59
+32
+12
+76 
+85
+24
+42 63 59 32 12 76 85 24
+393

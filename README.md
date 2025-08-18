@@ -43,8 +43,8 @@ Enter the elements of the array:42
 59
 32
 12
-76 
+76
 85
 24
 42 63 59 32 12 76 85 24
-393
+The sum of all elements is 393

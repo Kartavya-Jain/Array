@@ -22,7 +22,7 @@ int main()
     }
     cout<<endl;
     cout<<sum;
-   delete[] array;
-   array=NULL;
-   return 0;
+    delete[] array;
+    array=NULL;
+    return 0;
 }

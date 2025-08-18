@@ -21,7 +21,7 @@ int main()
         sum=sum+array[i];
     }
     cout<<endl;
-    cout<<sum;
+    cout<<"The sum of all elements is "<<sum;
     delete[] array;
     array=NULL;
     return 0;
